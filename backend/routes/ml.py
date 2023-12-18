@@ -6,7 +6,7 @@ from dependencies.container import Container
 from services.ml import MLService
 from schemas.request_model import Request as UserRequest
 
-ml_router = APIRouter(prefix="ml/")
+ml_router = APIRouter(prefix="/ml")
 
 
 @ml_router.post("/generate")
